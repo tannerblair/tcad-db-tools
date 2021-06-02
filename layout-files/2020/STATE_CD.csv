@@ -1,0 +1,6 @@
+﻿Field Name,Datatype,Start,End,Length,Description
+state_cd,char(10),1,10,10,CAD State Property Tax Code
+state_cd_description,char(50),11,60,50,CAD State Property Tax Code Description
+ptd_state_cd,char(10),61,70,10,PTD State Property Tax Code
+ptd_state_cd_description,char(50),71,120,50,PTD State Property Tax Code Description
+state_cd_year,char(5),121,125,5,CAD State Property Tax Code Year

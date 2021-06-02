@@ -1,0 +1,3 @@
+﻿Field Name,Datatype,Start,End,Length,Description
+abs_subdv_cd,char(10),1,10,10,Abstract/Subdivision code
+abs_subdv_desc,char(40),11,50,40,Abstract/Subdivision code description

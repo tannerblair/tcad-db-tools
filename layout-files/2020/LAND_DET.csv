@@ -1,0 +1,20 @@
+﻿Field Name,Datatype,Start,End,Length,Description
+prop_id,int(12),1,12,12,Property ID
+prop_val_yr,numeric(4),13,16,4,Year
+land_seg_id,int(12),17,28,12,Unique Identifier
+land_type_cd,varcahr(10),29,38,10,Land Type Code
+land_type_desc,varchar(25),39,63,25,Land Type Description
+state_cd,varchar(5),64,68,5,State Code
+land_seg_homesite,varchar(1),69,69,1,"""T"" indicates Homesite improvement, ""F"" non Homesite"
+size_acres,numeric(14),70,83,14,Size Acres ( 4 Decimals )
+size_square_feet,numeric(14),84,97,14,Size Square Feet
+effective_front,numeric(14),98,111,14,Effective Front
+effective_depth,numeric(14),112,125,14,Effective Depth
+mkt_ls_method,varchar(5),126,130,5,Market Method
+mkt_ls_class,varchar(10),131,140,10,Market Class
+land_seg_mkt_val,numeric(14),141,154,14,Market Value
+ag_apply,varchar(1),155,155,1,"""T"" indicates property has ag, ""F"" no ag"
+ag_ls_method,varchar(5),156,160,5,Ag Method
+ag_ls_class,varchar(10),161,170,10,Ag Class
+ag_value,numeric(14),171,184,14,Ag Value
+land_homesite_pct,numeric(15),185,199,15,Homesite Apportionment Percentage

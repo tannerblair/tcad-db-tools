@@ -1,0 +1,13 @@
+﻿Field Name,Datatype,Start,End,Length,Description
+Run Date / Time,char(16),1,16,16,Run Date and Time
+File Description,char(40),17,56,40,Description of this file
+Appraisal Year,numeric(4),57,60,4,Appraisal or Tax Year
+Supplement Number,numeric(4),61,64,4,Supplement Number
+Entity Code,char(10),65,74,10,"Entity Code or ""MULT"" if multiple entities"
+Entity Description,char(40),75,114,40,Entity Description or list of entities
+Office Name,char(30),115,144,30,Office name generating file
+Operator,char(20),145,164,20,Operator generating file
+PACS Version,char(10),165,174,10,PACS version number
+Export Version,char(10),175,184,10,Export OCX version number
+Value Option,char(10),185,194,10,"If property values are not included in this tape, then this field will contain 'NO VALUES' otherwise, it will be blank."
+Office Use Only,char(50),195,244,50,Comma separated answers to all questions generating transfer file

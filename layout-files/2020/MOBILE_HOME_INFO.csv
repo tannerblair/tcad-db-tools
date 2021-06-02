@@ -1,0 +1,13 @@
+﻿Field Name,Datatype,Start,End,Length,Description
+prop_id,int(12),1,12,12,Property ID
+prop_val_yr,numeric(4),13,16,4,Year
+imprv_id,int(12),17,28,12,Improvement ID
+mbl_hm_make,varchar(100),29,128,100,Make
+mbl_hm_model,varchar(100),129,228,100,Model
+mbl_hm_title_num,varchar(100),229,328,100,Title Number
+mbl_hm_sn,varchar(100),329,428,100,Serial Number 1
+mbl_hm_hud_num,varchar(100),429,528,100,HUD Number 1
+mbl_hm_sn_2,varchar(100),529,628,100,Serial Number 2
+mbl_hm_hud_num_2,varchar(100),629,728,100,HUD Number 2
+mbl_hm_sn_3,varchar(100),729,828,100,Serial Number 3
+mbl_hm_hud_num_3,varchar(100),829,928,100,HUD Number 3

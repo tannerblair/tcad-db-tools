@@ -1,0 +1,176 @@
+﻿Field Name,Datatype,Start,End,Length,Description
+prop_id,int(12),1,12,12,Property Id
+prop_val_yr,numeric(5),13,17,5,Appraisal or Tax Year
+sup_num,int(12),18,29,12,"Supplement Version Number - 0 = represents certified data, supplemental data otherwise"
+owner_id,int(12),30,41,12,Owner Id
+entity_id,int(12),42,53,12,Entity Id
+entity_cd,char(10),54,63,10,10 character code that will represent the entity
+entity_name,char(50),64,113,50,Descriptive Name of Entity
+entity_xref_id,char(20),114,133,20,Entity Local Xref Id Number
+filler,char(15),134,148,15,Not in use
+assessed_val,numeric(15),149,163,15,Assessed Value
+taxable_val,numeric(15),164,178,15,Taxable Value
+ab_amt,numeric(15),179,193,15,Abatement Exemption Amount Granted by Entity
+en_amt,numeric(15),194,208,15,Energy Exemption Amount Granted by Entity
+fr_amt,numeric(15),209,223,15,Freeport Exemption Amount Granted by Entity
+ht_amt,numeric(15),224,238,15,Historical Exemption Amount Granted by Entity
+pro_amt,numeric(15),239,253,15,Prorated Exemption Amount Granted by Entity
+pc_amt,numeric(15),254,268,15,Pollution Control Exemption Amount Granted by Entity
+so_amt,numeric(15),269,283,15,Solar Exemption Amount Granted by Entity
+ex366_amt,numeric(15),284,298,15,"EX366 Exemption Amount Granted by Entity
+Properties under $500 minimum exemption"
+hs_amt,numeric(15),299,313,15,Homestead Amount granted by entity
+ov65_amt,numeric(15),314,328,15,Over 65 Amount granted by entity
+dp_amt,numeric(15),329,343,15,Disability Exemption Amount granted by entity
+dv_amt,numeric(15),344,358,15,Disabled Veteran Amount granted by entity
+ex_amt,numeric(15),359,373,15,"Total Exemption Amount granted by entity
+(Needed for Prorated Total Exemption Accounts)"
+ch_amt,numeric(15),374,388,15,Charitable Exemption Amount granted by entity
+market_value,numeric(15),389,403,15,Market Value
+appraised_value,numeric(15),404,418,15,Appraised Value
+hs_cap,numeric(15),419,433,15,HS Cap
+ag_late_loss,numeric(15),434,448,15,Late ag loss
+freeport_late_loss,numeric(15),449,463,15,Late Freeport Loss
+hs_state_amt,numeric(15),464,478,15,Homestead Exemption State Amount
+hs_local_amt,numeric(15),479,493,15,Homestead Exemption Local Amount
+land_hstd_val,numeric(15),494,508,15,Land Homestead Value
+land_non_hstd_val,numeric(15),509,523,15,Land Non Homestead Value
+imprv_hstd_val,numeric(15),524,538,15,Improvement Homestead Value
+imprv_non_hstd_val,numeric(15),539,553,15,Improvement Non Homestead Value
+ag_use_val,numeric(15),554,568,15,Agriculture Use Value
+ag_market_val,numeric(15),569,583,15,Agriculture Market Value
+tim_use_val,numeric(15),584,598,15,Timber Use Value
+tim_market_val,numeric(15),599,613,15,Timber Market Value
+partial_entity,char(1),614,614,1,"If ""T"" the property is not 100% within the entity."
+freeze_yr,numeric(4),615,618,4,Freeze Year
+freeze_ceiling,numeric(15),619,633,15,Freeze Ceiling
+freeze_transfer_flag,char(1),634,634,1,Freeze Transfer Flag
+freeze_transfer_date,char(25),635,659,25,Freeze Transfer Date
+freeze_previous_tax,numeric(15),660,674,15,Freeze Previous Tax
+freeze_previous_tax_unfrozen,numeric(15),675,689,15,Freeze Previous Tax Unfrozen
+freeze_transfer_percentage,"numeric(9,6)",690,698,9,Freeze Transfer Percentage
+lve_amt,numeric(15),699,713,15,Leased vehicle exemption amount
+eco_amt,numeric(15),714,728,15,ECO exemption amount
+ag_use_val_ne,numeric(15),729,743,15,Ag use val non-exempt
+ag_use_val_ex,numeric(15),744,758,15,Ag use val exempt
+ag_market_ne,numeric(15),759,773,15,Ag market non-exempt
+ag_market_ex,numeric(15),774,788,15,Ag market exempt
+timber_use_ne,numeric(15),789,803,15,Timber use non-exempt
+timber_use_ex,numeric(15),804,818,15,Timber use exempt
+timber_market_ne,numeric(15),819,833,15,Timber market non-exempt
+timber_market_ex,numeric(15),834,848,15,Timber market exempt
+new val hs,numeric(15),849,863,15,New Homesite Value
+new val nhs,numeric(15),864,878,15,New Non-Homesite Value
+new val p,numeric(15),879,893,15,New Personal Value
+new val taxable,numeric(15),894,908,15,New Taxable Value
+dataset_id,numeric(15),909,923,15,Unique number that identifies this export
+chodo_amt,numeric(15),924,938,15,CHODO Exemption Amount Granted by Entity
+ent_pct_land_hs,numeric(15),939,953,15,Land Homesite Entity Percentage
+ent_pct_land_nonhs,numeric(15),954,968,15,Land Non-Homesite Entity Percentage
+ent_pct_imprv_hs,numeric(15),969,983,15,Improvement Homesite Entity Percentage
+ent_pct_imprv_nonhs,numeric(15),984,998,15,Improvement Non-Homesite Entity Percentage
+ent_pct_ag_use,numeric(15),999,1013,15,Ag Use Entity Percentage
+ent_pct_ag_mkt,numeric(15),1014,1028,15,Ag Market Entity Percentage
+ent_pct_tim_use,numeric(15),1029,1043,15,Timber Use Entity Percentage
+ent_pct_tim_mkt,numeric(15),1044,1058,15,Timber Market Entity Percentage
+ent_pct_pers,numeric(15),1059,1073,15,Personal Property Entity Percentage
+ent_pct_min,numeric(15),1074,1088,15,Mineral Property Entity Percentage
+ent_pct_auto,numeric(15),1089,1103,15,Automotive Property Entity Percentage
+lih_amt,numeric(15),1104,1118,15,LIH Exemption Amount Granted by Entity
+git_amt,numeric(15),1119,1133,15,GIT Exemption Amount Granted by Entity
+dvhs_amt,numeric(15),1134,1148,15,Disabled Veteran Homestead Amount granted by entity
+tax_increment_flag,char(1),1149,1149,1,Tax Increment Flag ('T' or 'F')
+tax_increment_imprv_val,numeric(15),1150,1164,15,Tax Increment Improvement Value
+tax_increment_land_val,numeric(15),1165,1179,15,Tax Increment Land Value
+weed_taxable_acres,numeric(15),1180,1194,15,Weed Taxable Acres (4 Decimal Places)
+hs_allocation_factor,numeric(15),1195,1209,15,Allocation Factor for HS exemption
+ov65_allocation_factor,numeric(15),1210,1224,15,Allocation Factor for OV65 exemption
+ov65s_allocation_factor,numeric(15),1225,1239,15,Allocation Factor for OV65S exemption
+dp_allocation_factor,numeric(15),1240,1254,15,Allocation Factor for DP exemption
+dps_allocation_factor,numeric(15),1255,1269,15,Allocation Factor for DPS exemption
+dv1_allocation_factor,numeric(15),1270,1284,15,Allocation Factor for DV1 exemption
+dv1s_allocation_factor,numeric(15),1285,1299,15,Allocation Factor for DV1S exemption
+dv2_allocation_factor,numeric(15),1300,1314,15,Allocation Factor for DV2 exemption
+dv2s_allocation_factor,numeric(15),1315,1329,15,Allocation Factor for DV2S exemption
+dv3_allocation_factor,numeric(15),1330,1344,15,Allocation Factor for DV3 exemption
+dv3s_allocation_factor,numeric(15),1345,1359,15,Allocation Factor for DV3S exemption
+dv4_allocation_factor,numeric(15),1360,1374,15,Allocation Factor for DV4 exemption
+dv4s_allocation_factor,numeric(15),1375,1389,15,Allocation Factor for DV4S exemption
+dvhs_allocation_factor,numeric(15),1390,1404,15,Allocation Factor for DVHS exemption
+ex_allocation_factor,numeric(15),1405,1419,15,Allocation Factor for EX exemption
+ab_allocation_factor,numeric(15),1420,1434,15,Allocation Factor for AB exemption
+en_allocation_factor,numeric(15),1435,1449,15,Allocation Factor for EN exemption
+fr_allocation_factor,numeric(15),1450,1464,15,Allocation Factor for FR exemption
+ht_allocation_factor,numeric(15),1465,1479,15,Allocation Factor for HT exemption
+pro_allocation_factor,numeric(15),1480,1494,15,Allocation Factor for PRO exemption
+pc_allocation_factor,numeric(15),1495,1509,15,Allocation Factor for PC exemption
+so_allocation_factor,numeric(15),1510,1524,15,Allocation Factor for SO exemption
+ex366_allocation_factor,numeric(15),1525,1539,15,Allocation Factor for EX366 exemption
+ch_allocation_factor,numeric(15),1540,1554,15,Allocation Factor for CH exemption
+eco_allocation_factor,numeric(15),1555,1569,15,Allocation Factor for ECO exemption
+chodo_allocation_factor,numeric(15),1570,1584,15,Allocation Factor for CHODO exemption
+lih_allocation_factor,numeric(15),1585,1599,15,Allocation Factor for LIH exemption
+git_allocation_factor,numeric(15),1600,1614,15,Allocation Factor for GIT exemption
+freeze_exmpt_type_cd,char(5),1615,1619,5,Freeze Exemption Type
+freeze_transfer_exmpt_type_cd,char(5),1620,1624,5,Freeze Transfer Exemption Type
+tax_increment_zone_cd,char(10),1625,1634,10,Tax Increment Zone Code
+tax_increment_zone_desc,char(50),1635,1684,50,Tax Increment Zone Description
+omitted_imprv_hstd_val,numeric(15),1685,1699,15,Omitted Improvement Homestead Value by entity
+omitted_imprv_non_hstd_val,numeric(15),1700,1714,15,Omitted Improvement Non-Homestead Value by entity
+clt_amt,numeric(15),1715,1729,15,Community Land Trust Amount granted by entity
+clt_allocation_factor,numeric(15),1730,1744,15,Allocation Factor for CLT exemption
+dvhss_amt,numeric(15),1745,1759,15,DVHS Surviving Spouse Amount granted by entity
+dvhss_allocation_factor,numeric(15),1760,1774,15,Allocation Factor for DVHS Surviving Spouse  exemption
+homestead_group_exemption_factor,numeric(15),1775,1789,15,Homestead Group Exemption Factor (10 decimals)
+ex_xd_amt,numeric(15),1790,1804,15,EX-XD 11.181 Exemption Amount granted by entity
+ex_xd_allocation_factor,numeric(15),1805,1819,15,EX-XD 11.181 exemption Allocation Factor 
+ex_xf_amt,numeric(15),1820,1834,15,EX-XF 11.183 Exemption Amount granted by entity
+ex_xf_allocation_factor,numeric(15),1835,1849,15,EX-XF 11.183 exemptionAllocation Factor
+ex_xg_amt,numeric(15),1850,1864,15,EX-XG 11.184 Exemption Amount granted by entity
+ex_xg_allocation_factor,numeric(15),1865,1879,15,EX-XG 11.184 Exemption Allocation Factor
+ex_xh_amt,numeric(15),1880,1894,15,EX-XH 11.185 Exemption Amount granted by entity
+ex_xh_allocation_factor,numeric(15),1895,1909,15,EX-XH 11.185 Exemption Allocation Factor
+ex_xi_amt,numeric(15),1910,1924,15,EX-XI 11.19 Exemption Amount granted by entity
+ex_xi_allocation_factor,numeric(15),1925,1939,15,EX-XI 11.19 Exemption Allocation Factor
+ex_xj_amt,numeric(15),1940,1954,15,EX-XJ 11.21 Exemption Amount granted by entity
+ex_xj_allocation_factor,numeric(15),1955,1969,15,EX-XJ 11.21 Exemption Allocation Factor
+ex_xl_amt,numeric(15),1970,1984,15,EX-XL 11.231 Exemption Amount granted by entity
+ex_xl_allocation_factor,numeric(15),1985,1999,15,EX-XL 11.231 Exemption Allocation Factor
+ex_xm_amt,numeric(15),2000,2014,15,EX-XM 11.25 Exemption Amount granted by entity
+ex_xm_allocation_factor,numeric(15),2015,2029,15,EX-XM 11.25 Exemption Allocation Factor
+ex_xn_amt,numeric(15),2030,2044,15,EX-XN 11.252 Exemption Amount granted by entity
+ex_xn_allocation_factor,numeric(15),2045,2059,15,EX-XN 11.252 Exemption Allocation Factor
+ex_xo_amt,numeric(15),2060,2074,15,EX-XO 11.254 Exemption Amount granted by entity
+ex_xo_allocation_factor,numeric(15),2075,2089,15,EX-XO 11.254 Exemption Allocation Factor
+ex_xp_amt,numeric(15),2090,2104,15,EX-XP 11.271 Exemption Amount granted by entity
+ex_xp_allocation_factor,numeric(15),2105,2119,15,EX-XP 11.271 Exemption Allocation Factor
+ex_xq_amt,numeric(15),2120,2134,15,EX-XQ 11.29 Exemption Amount granted by entity
+ex_xq_allocation_factor,numeric(15),2135,2149,15,EX-XQ 11.29 Exemption Allocation Factor
+ex_xr_amt,numeric(15),2150,2164,15,EX-XR 11.30 Exemption Amount granted by entity
+ex_xr_allocation_factor,numeric(15),2165,2179,15,EX-XR 11.30 Exemption Allocation Factor
+ex_xs_amt,numeric(15),2180,2194,15,EX-XS 11.33 Exemption Amount granted by entity
+ex_xs_allocation_factor,numeric(15),2195,2209,15,EX-XS 11.33 Exemption Allocation Factor
+ex_xt_amt,numeric(15),2210,2224,15,EX-XT 11.34 Exemption Amount granted by entity
+ex_xt_allocation_factor,numeric(15),2225,2239,15,EX-XT 11.34 Exemption Allocation Factor
+ex_xu_amt,numeric(15),2240,2254,15,EX-XU 11.23 Exemption Amount granted by entity
+ex_xu_allocation_factor,numeric(15),2255,2269,15,EX-XU 11.23 Exemption Allocation Factor
+ex_xv_amt,numeric(15),2270,2284,15,EX-XV Exemption Amount granted by entity
+ex_xv_allocation_factor,numeric(15),2285,2299,15,EX-XV Exemption Allocation Factor
+ex_xa_amt,numeric(15),2300,2314,15,EX-XA Exemption Amount granted by entity
+ex_xa_allocation_factor,numeric(15),2315,2329,15,EX-XA Exemption Allocation Factor
+lve_allocation_factor,numeric(15),2330,2344,15,Leased vehicle exemption allocation factor
+ppv_amt,numeric(15),2345,2359,15,Personal Property vehicle exemption amount
+ppv_allocation_factor,numeric(15),2360,2374,15,Personal Property vehicle exemption allocation factor
+dvch_amt,numeric(15),2375,2389,15,Disabled Veteran Charity Homestead exemption amount
+dvch_allocation_factor,numeric(15),2390,2404,15,Disabled Veteran Charity Homestead exemption allocation factor
+dvchs_amt,numeric(15),2405,2419,15,Disabled Veteran Charity Homestead Spouse exemption amount
+dvchs_allocation_factor,numeric(15),2420,2434,15,Disabled Veteran Charity Homestead Spouse exemption allocation factor
+masss_amt,numeric(15),2435,2449,15,Member Armed Services Surviving Spouse exemption amount
+masss_allocation_factor,numeric(15),2450,2464,15,Member Armed Services Surviving Spouse exemption allocation factor
+pp_late_interstate_allocation_val,numeric(15),2465,2479,15,Property interstate allocation value that is subject to penalty by entity
+frss_amt,numeric(15),2480,2494,15,First Responder Surviving Spouse exemption amount
+frss_allocation_factor,numeric(15),2495,2509,15,First Responder Surviving Spouse exemption allocation factor
+abmno_amt,numeric(15),2510,2524,15,ABMNO (Abatement-MNO) exemption amount
+abmno_allocation_factor,numeric(15),2525,2539,15,ABMNO (Abatement-MNO) exemption allocation factor
+dstr_amt,numeric(15),2540,2554,15,Disaster Damage Exemption amount
+dstr_allocation_factor,numeric(15),2555,2569,15,Disaster Damage Exemption allocation factor

@@ -1,0 +1,3 @@
+﻿Field Name,Datatype,Start,End,Length,Description
+country_cd,char(5),1,5,5,Country Code
+country_name,char(50),6,55,50,Country Name (or Description

@@ -1,0 +1,8 @@
+﻿Field Name,Datatype,Start,End,Length,Description
+prop_id,int(12),1,12,12,Property ID
+prop_val_yr,numeric(4),13,16,4,Year
+imprv_id,int(12),17,28,12,Improvement ID
+imprv_det_id,int(12),29,40,12,Improvement Detail ID
+imprv_attr_id,int(12),41,52,12,Improvement Attribute ID
+imprv_attr_desc,varchar(25),53,77,25,Attribute Description
+imprv_attr_cd,varchar(10),78,87,10,Attribute Code

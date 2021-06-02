@@ -1,0 +1,140 @@
+﻿Field Name,Datatype,Start,End,Length,Description
+entity_id,int(12),1,12,12,Entity Id
+entity_cd,char(5),13,17,5,Entity Code
+entity_name,char(70),18,87,70,Entity Descriptive Name
+land_hstd_val,numeric(15),88,102,15,Total Land Homestead Value
+land_non_hstd_val,numeric(15),103,117,15,Total Land Non Homestead Value
+imprv_hstd_val,numeric(15),118,132,15,Total Improvement Homestead Value
+imprv_non_hstd_val,numeric(15),133,147,15,Total Improvement Non Homestead Value
+ag_use_val,numeric(15),148,162,15,Total Agriculture Use Value
+tim_use_val,numeric(15),163,177,15,Total Timber Use Value
+ag_market_val,numeric(15),178,192,15,Total Agriculture Market Value
+tim_market_val,numeric(15),193,207,15,Total Timber Market Value
+taxable_val,numeric(15),208,222,15,Total Taxable Value
+mineral_val,numeric(15),223,237,15,Total Mineral Value
+personal_val,numeric(15),238,252,15,Total Personal Value
+auto_val,numeric(15),253,267,15,Total Auto Value
+real_mobile_val,numeric(15),268,282,15,Total Real/Mobile Value
+num_real_mobile,int(12),283,294,12,Number of Real/Mobile Properties
+num_personal,int(12),295,306,12,Number of Personal Properties
+num_mineral,int(12),307,318,12,Number of Mineral Properties
+num_auto,int(12),319,330,12,Number of Auto Properties
+num_records,int(12),331,342,12,Number of Properties Overall
+market_value,numeric(15),343,357,15,Total Market Value
+hs_cap_count,int(12),358,369,12,Total Number of Capped Properties
+hs_cap,numeric(15),370,384,15,Total HS Cap value
+hs_count,int(12),385,396,12,Total Number of Homestead Properties
+hs_local_amount,numeric(15),397,411,15,Total Local Option Homestead Exemption
+hs_state_amount,numeric(15),412,426,15,Total State Mandated Homestead Exemption
+ov65_count,int(12),427,438,12,Total Number of OV65 Properties
+ov65_amt,numeric(15),439,453,15,Total Over 65 Exemption
+dp_count,int(12),454,465,12,Total Number of DP Properties
+dp_amt,numeric(15),466,480,15,Total Disability Exemption
+dv_count,int(12),481,492,12,Total Number of Disabled Veteran Properties
+dv_amt,numeric(15),493,507,15,Total Disabled Veteran Exemption
+ab_count,int(12),508,519,12,Total Number of Abated Properties
+ab_amt,numeric(15),520,534,15,Total Abatements
+fr_count,int(12),535,546,12,Total Number of Freeport Properties
+fr_amt,numeric(15),547,561,15,Total Freeport Exemptions
+pc_count,int(12),562,573,12,Total Number of Pollution Control Properties
+pc_amt,numeric(15),574,588,15,Total Pollution Control Exemptions
+ex366_count,int(12),589,600,12,Total Number of $500 Minimum Value Properties
+ex366_amt,numeric(15),601,615,15,Total $500 Minimum Value Exemptions
+ht_count,int(12),616,627,12,Total Historical Properties
+ht_amt,numeric(15),628,642,15,Total Historical Exemptions
+so_count,int(12),643,654,12,Total Solar Properties
+so_amt,numeric(15),655,669,15,Total Solar Exemption Amount
+ex_count,int(12),670,681,12,Total Absolute Exemption Properties
+ex_amt,numeric(15),682,696,15,Total Absolute Exemption Amount
+ch_count,int(12),697,708,12,Total Charitable Exemption Properties
+ch_amt,numeric(15),709,723,15,Total Charitable Exemption Amount
+ag_late_count,int(12),724,735,12,Total Number of Late Ag Loss Properties
+ag_late_loss,numeric(15),736,750,15,Total Late Ag Loss Amount
+freeport_late_count,int(12),751,762,12,Total Number of Late Freeport Loss Properties
+freeport_late_loss,numeric(15),763,777,15,Total Late Freeport Loss Amount
+lve_count,int(12),778,789,12,Total number of lve exemptions
+lve_amt,numeric(15),790,804,15,Totals leased vehicle exemption amount
+year,int(4),805,808,4,Property val year
+sup_num,int(12),809,820,12,Supplement number
+eco_count,int(12),821,832,12,Total number of eco exemptions
+eco_amt,numeric(15),833,847,15,Totals eco exemption amount
+ag_use_val_ne,numeric(15),848,862,15,Totals ag use val non-exempt
+ag_use_val_ex,numeric(15),863,877,15,Totals ag use val exempt
+ag_market_ne,numeric(15),878,892,15,Totals market non-exempt
+ag_market_ex,numeric(15),893,907,15,Totals ag market exempt
+timber_use_ne,numeric(15),908,922,15,Totals timber use non-exempt
+timber_use_ex,numeric(15),923,937,15,Totals timber use exempt
+timber_market_ne,numeric(15),938,952,15,Totals timber market non-exempt
+timber_market_ex,numeric(15),953,967,15,Totals timber market non-exempt
+en_count,int(15),968,982,15,Total number of en exemptions
+en_amt,numeric(15),983,997,15,Totals en exemption amount
+dataset_id,numeric(15),998,1012,15,Unique number that identifies this export
+chodo_count,int(12),1013,1024,12,Total Number of CHODO Exemptions
+chodo_amt,numeric(15),1025,1039,15,Total CHODO Exemption Value
+lih_count,int(12),1040,1051,12,Total Number of LIH Exemptions
+lih_amt,numeric(15),1052,1066,15,Total LIH Exemption Value
+git_count,int(12),1067,1078,12,Total Number of GIT Exemptions
+git_amt,numeric(15),1079,1093,15,Total GIT Exemption Value
+dvhs_count,int(12),1094,1105,12,Total Number of Disabled Veteran Homestead Properties
+dvhs_amt,numeric(15),1106,1120,15,Total Disabled Veteran Homestead Exemption
+tax_increment_imprv_val,numeric(15),1121,1135,15,Total Tax Increment Improvement Value
+tax_increment_land_val,numeric(15),1136,1150,15,Total Tax Increment Land Value
+weed_taxable_acres,numeric(15),1151,1165,15,Total Weed Taxable Acres (4 Decimal Places)
+omitted_imprv_hstd_val,numeric(15),1166,1180,15,Omitted Improvement Homestead Value
+omitted_imprv_non_hstd_val,numeric(15),1181,1195,15,Omitted Improvement Non_Homestead Value
+clt_count,int(12),1196,1207,12,Total Number of Community Land Trust Properties
+clt_amt,numeric(15),1208,1222,15,Total Community Land Trust Exemption
+dvhss_count,int(12),1223,1234,12,Total Number of DVHS Surviving Spouse Properties
+dvhss_amt,numeric(15),1235,1249,15,Total DVHS Surviving Spouse Exemption
+ex_xd_count,int(12),1250,1261,12,Total EX-XD 11.181 Exemption Properties
+ex_xd_amt,numeric(15),1262,1276,15,Total EX-XD 11.181 Exemption Amount
+ex_xf_count,int(12),1277,1288,12,Total EX-XF 11.183 Exemption Properties
+ex_xf_amt,numeric(15),1289,1303,15,Total EX-XF 11.183 Exemption Amount
+ex_xg_count,int(12),1304,1315,12,Total EX-XG 11.184 Exemption Properties
+ex_xg_amt,numeric(15),1316,1330,15,Total EX-XG 11.184 Exemption Amount
+ex_xh_count,int(12),1331,1342,12,Total EX-XH 11.185 Exemption Properties
+ex_xh_amt,numeric(15),1343,1357,15,Total EX-XH 11.185 Exemption Amount
+ex_xi_count,int(12),1358,1369,12,Total EX-XI 11.19 Exemption Properties
+ex_xi_amt,numeric(15),1370,1384,15,Total EX-XI 11.19 Exemption Amount
+ex_xj_count,int(12),1385,1396,12,Total EX-XJ 11.21 Exemption Properties
+ex_xj_amt,numeric(15),1397,1411,15,Total EX-XJ 11.21 Exemption Amount
+ex_xl_count,int(12),1412,1423,12,Total EX-XL 11.231 Exemption Properties
+ex_xl_amt,numeric(15),1424,1438,15,Total EX-XL 11.231 Exemption Amount
+ex_xm_count,int(12),1439,1450,12,Total EX-XM 11.25 Exemption Properties
+ex_xm_amt,numeric(15),1451,1465,15,Total EX-XM 11.25 Exemption Amount
+ex_xn_count,int(12),1466,1477,12,Total EX-XN 11.252 Exemption Properties
+ex_xn_amt,numeric(15),1478,1492,15,Total EX-XN 11.252 Exemption Amount
+ex_xo_count,int(12),1493,1504,12,Total EX-XO 11.254 Exemption Properties
+ex_xo_amt,numeric(15),1505,1519,15,Total EX-XO 11.254 Exemption Amount
+ex_xp_count,int(12),1520,1531,12,Total EX-XP 11.271 Exemption Properties
+ex_xp_amt,numeric(15),1532,1546,15,Total EX-XP 11.271 Exemption Amount
+ex_xq_count,int(12),1547,1558,12,Total EX-XQ 11.29 Exemption Properties
+ex_xq_amt,numeric(15),1559,1573,15,Total EX-XQ 11.29 Exemption Amount
+ex_xr_count,int(12),1574,1585,12,Total EX-XR 11.30 Exemption Properties
+ex_xr_amt,numeric(15),1586,1600,15,Total EX-XR 11.30 Exemption Amount
+ex_xs_count,int(12),1601,1612,12,Total EX-XS 11.33 Exemption Properties
+ex_xs_amt,numeric(15),1613,1627,15,Total EX-XS 11.33 Exemption Amount
+ex_xt_count,int(12),1628,1639,12,Total EX-XT 11.34 Exemption Properties
+ex_xt_amt,numeric(15),1640,1654,15,Total EX-XT 11.34 Exemption Amount
+ex_xu_count,int(12),1655,1666,12,Total EX-XU 11.23 Exemption Properties
+ex_xu_amt,numeric(15),1667,1681,15,Total EX-XU 11.23 Exemption Amount
+ex_xv_count,int(12),1682,1693,12,Total EX-XV Exemption Properties
+ex_xv_amt,numeric(15),1694,1708,15,Total EX-XV Exemption Amount
+ex_xa_count,int(12),1709,1720,12,Total EX-XA Exemption Properties
+ex_xa_amt,numeric(15),1721,1735,15,Total EX-XA Exemption Amount
+ppv_count,int(12),1736,1747,12,Total number of PPV exemptions
+ppv_amt,numeric(15),1748,1762,15,Totals personal property leased vehicle exemption amount
+dvch_count,int(12),1763,1774,12,Total number of DVCH exemptions
+dvch_amt,numeric(15),1775,1789,15,Totals Disabled Veteran Charity Homestead exemption amount
+dvchs_count,int(12),1790,1801,12,Total number of DVCHS exemptions
+dvchs_amt,numeric(15),1802,1816,15,Totals Disabled Veteran Charity Homestead Spouse exemption amount
+masss_count,int(12),1817,1828,12,Total number of MASSS exemptions
+masss_amt,numeric(15),1829,1843,15,Total Member Armed Service Surviving Spouse exemption amount
+pp_late_interstate_allocation_count,int(12),1844,1855,12,Total count of properties that have interstate allocation value that is subject to penalty by entity
+pp_late_interstate_allocation_val,numeric(15),1856,1870,15,Total property interstate allocation value that is subject to penalty by entity
+frss_count,int(12),1871,1882,12,Total number of FRSS exemptions
+frss_amt,numeric(15),1883,1897,15,Total First Responder Surviving Spouse exemption amount
+abmno_count,int(12),1898,1909,12,Total number of ABMNO (Abatement-MNO) exemptions
+abmno_amt,numeric(15),1910,1924,15,Total ABMNO exemption amount
+dstr_count,int(12),1925,1936,12,Total number of DSTR exemptions
+dstr_amt,numeric(15),1937,1951,15,Total Disaster Damage Exemption amount

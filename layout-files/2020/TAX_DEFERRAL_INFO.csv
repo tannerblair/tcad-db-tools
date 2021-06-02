@@ -1,0 +1,9 @@
+﻿Field Name,Datatype,Start,End,Length,Description
+prop_id,int(12),1,12,12,property ID
+owner_id,int(12),13,24,12,Owner ID - PACS Internal ID
+exmpt_type_cd,char(5),25,29,5,Exempt type code
+deferral_start_date,char(25),30,54,25,Tax deferral start date
+deferral_end_date,char(25),55,79,25,Tax deferral end date
+geo_id,char(50),80,129,50,Geographic ID
+owner_name,char(70),130,199,70,Property owner name
+last_change_date,char(25),200,224,25,Tax deferral change date

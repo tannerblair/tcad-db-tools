@@ -1,0 +1,12 @@
+﻿Field Name,Datatype,Start,End,Length,Description
+agent_id,int(12),1,12,12,Agent ID
+agent_name,char(70),13,82,70,Agent Name
+agent_addr_line1,char(60),83,142,60,Agent Line 1
+agent_addr_line2,char(60),143,202,60,Agent Line 2
+agent_addr_line3,char(60),203,262,60,Agent Line 3
+agent_city,char(50),263,312,50,Agent City
+agent_state,char(50),313,362,50,Agent State
+agent_country,char(5),363,367,5,Agent Country
+agent_zip,char(5),368,372,5,Agent Zip (Zip Only)
+agent_zip_cass,char(4),373,376,4,Agent Zip Cass (Cass Only)
+agent_zip_rt,char(2),377,378,2,Agent Zip Route (Route Only)

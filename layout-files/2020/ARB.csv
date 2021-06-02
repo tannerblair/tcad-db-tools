@@ -1,0 +1,7 @@
+﻿Field Name,Datatype,Start,End,Length,Description
+prop_id,int(12),1,12,12,Property ID
+prop_val_yr,numeric(5),13,17,5,Year
+geo_id,char(50),18,67,50,Geographic ID
+ref_id1,char(25),68,92,25,Ref ID 1
+ref_id2,char(25),93,117,25,Ref ID 2
+ARB_Status,char(10),118,127,10,ARB Status
