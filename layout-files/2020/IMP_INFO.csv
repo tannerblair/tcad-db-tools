@@ -1,8 +1,7 @@
-﻿Field Name,Datatype,Start,End,Length,Description
-prop_id,int(12),1,12,12,Property ID
+﻿prop_id,int(12),1,12,12,Property ID
 prop_val_yr,numeric(4),13,16,4,Year
 imprv_id,int(12),17,28,12,Improvement ID
-imprv_type_cd,varchar(10)`,29,38,10,Improvement Type
+imprv_type_cd,varchar(10),29,38,10,Improvement Type
 imprv_type_desc,varchar(25),39,63,25,Improvement Description
 imprv_state_cd,varchar(5),64,68,5,State Code
 imprv_homesite,varchar(1),69,69,1,"""Y"" indicates Homesite improvement, ""N"" non Homesite"

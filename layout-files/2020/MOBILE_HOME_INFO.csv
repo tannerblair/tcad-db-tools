@@ -1,5 +1,4 @@
-﻿Field Name,Datatype,Start,End,Length,Description
-prop_id,int(12),1,12,12,Property ID
+﻿prop_id,int(12),1,12,12,Property ID
 prop_val_yr,numeric(4),13,16,4,Year
 imprv_id,int(12),17,28,12,Improvement ID
 mbl_hm_make,varchar(100),29,128,100,Make

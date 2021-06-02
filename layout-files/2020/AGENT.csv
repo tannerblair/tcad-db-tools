@@ -1,5 +1,4 @@
-﻿Field Name,Datatype,Start,End,Length,Description
-agent_id,int(12),1,12,12,Agent ID
+﻿agent_id,int(12),1,12,12,Agent ID
 agent_name,char(70),13,82,70,Agent Name
 agent_addr_line1,char(60),83,142,60,Agent Line 1
 agent_addr_line2,char(60),143,202,60,Agent Line 2

@@ -1,5 +1,4 @@
-﻿Field Name,Datatype,Start,End,Length,Description
-prop_id,int(12),1,12,12,Property ID
+﻿prop_id,int(12),1,12,12,Property ID
 prop_val_yr,numeric(4),13,16,4,Year
 land_seg_id,int(12),17,28,12,Unique Identifier
 land_type_cd,varcahr(10),29,38,10,Land Type Code

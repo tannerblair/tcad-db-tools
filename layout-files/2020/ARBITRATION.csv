@@ -1,6 +1,5 @@
-﻿Field Name,Datatype,Start,End,Length,Description
-prop_id,int(12),#REF!,#REF!,12,Property ID
-prop_val_yr,numeric(5),#REF!,#REF!,5,Year
-geo_id,char(50),#REF!,#REF!,50,Geographic ID
-ref_id1,char(25),#REF!,#REF!,25,Ref ID 1
-ref_id2,char(25),#REF!,#REF!,25,Ref ID 2
+﻿prop_id,int(12),1,12,12,Property ID
+prop_val_yr,numeric(5),13,18,5,Year
+geo_id,char(50),19,69,50,Geographic ID
+ref_id1,char(25),70,95,25,Ref ID 1
+ref_id2,char(25),120,145,25,Ref ID 2

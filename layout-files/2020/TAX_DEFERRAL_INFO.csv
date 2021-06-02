@@ -1,5 +1,4 @@
-﻿Field Name,Datatype,Start,End,Length,Description
-prop_id,int(12),1,12,12,property ID
+﻿prop_id,int(12),1,12,12,property ID
 owner_id,int(12),13,24,12,Owner ID - PACS Internal ID
 exmpt_type_cd,char(5),25,29,5,Exempt type code
 deferral_start_date,char(25),30,54,25,Tax deferral start date

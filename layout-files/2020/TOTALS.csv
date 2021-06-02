@@ -1,5 +1,4 @@
-﻿Field Name,Datatype,Start,End,Length,Description
-entity_id,int(12),1,12,12,Entity Id
+﻿entity_id,int(12),1,12,12,Entity Id
 entity_cd,char(5),13,17,5,Entity Code
 entity_name,char(70),18,87,70,Entity Descriptive Name
 land_hstd_val,numeric(15),88,102,15,Total Land Homestead Value

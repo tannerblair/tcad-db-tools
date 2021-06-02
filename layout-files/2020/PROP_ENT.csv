@@ -1,5 +1,4 @@
-﻿Field Name,Datatype,Start,End,Length,Description
-prop_id,int(12),1,12,12,Property Id
+﻿prop_id,int(12),1,12,12,Property Id
 prop_val_yr,numeric(5),13,17,5,Appraisal or Tax Year
 sup_num,int(12),18,29,12,"Supplement Version Number - 0 = represents certified data, supplemental data otherwise"
 owner_id,int(12),30,41,12,Owner Id

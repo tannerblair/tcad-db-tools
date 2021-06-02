@@ -1,5 +1,4 @@
-﻿Field Name,Datatype,Start,End,Length,Description
-Run Date / Time,char(16),1,16,16,Run Date and Time
+﻿Run Date / Time,char(16),1,16,16,Run Date and Time
 File Description,char(40),17,56,40,Description of this file
 Appraisal Year,numeric(4),57,60,4,Appraisal or Tax Year
 Supplement Number,numeric(4),61,64,4,Supplement Number
